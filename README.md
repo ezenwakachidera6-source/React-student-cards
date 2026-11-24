@@ -1,16 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# StudentHub - Student Profile Management Interface
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+StudentHub is a student profile management interface built with React.
+It displays student information using reusable components and allows
+users to view individual student profiles.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React JS
+- JavaScript
+- HTML
+- Vanilla CSS
+- Vite
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Student profile cards
+- Reusable React components
+- Props and props destructuring
+- Dynamic list rendering using map()
+- Conditional student enrollment statuses
+- View Profile button with alert functionality
+- Responsive design
+
+## How to Run the Project
+
+1. Clone the repository.
+2. Open the project folder in your terminal.
+3. Install the dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+5. Open the local URL provided by Vite.
+
+## Author
+Kelvin Chidera
